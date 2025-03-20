@@ -8,12 +8,12 @@ export default function SectionA() {
     return (
         <div className={styles.conteneur}>
             <div className={styles.a}>
-                <Image
+            <Image
                 src="/img/Img1.webp" 
                 alt="Example Image"
                 fill 
-                style={{ objectFit: 'cover' }} 
-                   />
+                style={{ objectFit: 'cover' }}
+        />
             </div>
             <div className={styles.b}>
 
