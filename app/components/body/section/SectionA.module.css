@@ -1,0 +1,131 @@
+
+
+.conteneur {
+    position: relative; 
+    width: 100%;
+    height: calc(100dvh - 70px);
+  }
+  
+  .a, .b {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .a {
+    /*background-color: lightblue;*/
+    z-index: 1; 
+  }
+  
+  .b {
+   /* background-color: rgba(255, 0, 0, 0.5); */ 
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Form */
+
+.conteneurForm{
+    padding: 10px;
+    background-color: #ffffff54;
+}
+
+  .labelTrouverVotreCours {
+    color: white;
+    font-size: 34px;
+
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,  
+    -1px 1px 0 black, 
+    1px 1px 0 black;  
+  }
+
+  .input {
+    border: 2px solid #ffffff; /* Bordure solide de 2px en noir */
+    padding: 8px; /* Espacement intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    width: 100%; /* Largeur maximale */
+    margin-top: 8px; /* Marge en haut */
+    background-color: white;
+    
+  }
+  
+  .input:focus {
+    outline: none; /* Supprime la bordure par défaut au focus */
+    border-color: #000000; /* Change la couleur de la bordure au focus */
+ 
+  }
+
+  .form {
+    width: 90%;
+  }
+
+
+  .Soumettre{
+    display:flex;
+  }
+
+  .btnSoumettre{
+    width: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+
+
+
+  .svg{
+    width: 50%;
+    height: 50%;
+  }
+  .svg:hover{
+    color: #234D87;
+  }
+
+  .ListElement{
+
+    width: 250px;
+    height: 100%;
+    background-color: #234D87;
+
+    flex: 1 1 30%; /* Chaque élément prend environ 30% de la largeur du conteneur */
+    margin: 5px; /* Espacement entre les éléments */
+    box-sizing: border-box; /* Inclut la marge et le padding dans la largeur */
+    border-radius: 12px;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ListElementConteneur{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+   
+  }
+
+  .ListElement:nth-child(3n + 1),
+  .ListElement:nth-child(3n + 2),
+  .ListElement:nth-child(3n + 3) {
+      background-color: #ffffff; /* Rouge clair pour le premier groupe de 3 éléments */
+  }
+  
+  .ListElement:nth-child(3n + 4),
+  .ListElement:nth-child(3n + 5),
+  .ListElement:nth-child(3n + 6) {
+      background-color: #234D87; /* Vert clair pour le deuxième groupe de 3 éléments */
+      color: #ffffff;
+  }

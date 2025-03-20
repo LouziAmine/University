@@ -1,0 +1,14 @@
+.navList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navLink {
+    margin-right: 10px ;
+}
+
+.nav {
+    padding: 20px;
+}
