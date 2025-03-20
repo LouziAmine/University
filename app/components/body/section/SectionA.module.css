@@ -37,14 +37,10 @@
 }
 
   .labelTrouverVotreCours {
-    color: white;
-    font-size: 34px;
-
-    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,  
-    -1px 1px 0 black, 
-    1px 1px 0 black;  
+    color: #234D87;
+    font-size: 40px;
+    font-weight: bold;
+     
   }
 
   .input {
@@ -54,12 +50,14 @@
     width: 100%; /* Largeur maximale */
     margin-top: 8px; /* Marge en haut */
     background-color: white;
+    color:  #234D87;
+    font-family: "Brush Script MT", cursive;
     
   }
   
   .input:focus {
     outline: none; /* Supprime la bordure par défaut au focus */
-    border-color: #000000; /* Change la couleur de la bordure au focus */
+    border-color: #234D87; /* Change la couleur de la bordure au focus */
  
   }
 
@@ -88,6 +86,7 @@
   .svg{
     width: 50%;
     height: 50%;
+    color: white;
   }
   .svg:hover{
     color: #234D87;
@@ -121,6 +120,7 @@
   .ListElement:nth-child(3n + 2),
   .ListElement:nth-child(3n + 3) {
       background-color: #ffffff; /* Rouge clair pour le premier groupe de 3 éléments */
+      color: #234d87;
   }
   
   .ListElement:nth-child(3n + 4),
