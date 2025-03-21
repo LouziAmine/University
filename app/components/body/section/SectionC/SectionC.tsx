@@ -59,7 +59,7 @@ export default function SectionC() {
                   />
                  </div>
                  <div className={styles.Description}>
-                        <p>Après le BAC au Maroc : </p>
+                        <p>Concours univirsity : </p>
                         <ul>
                             <li> - Universités publiques</li>
                             <li> - Grandes écoles et instituts</li>
