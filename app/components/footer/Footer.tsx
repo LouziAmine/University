@@ -10,7 +10,7 @@ export default function Footer() {
           <Link href="/">University</Link>
         </li>
         <li>
-          <Link  href="/University">© 2025 University. Tous droits réservés.</Link>
+          <Link  href="/">© 2025 University. Tous droits réservés.</Link>
         </li>
         <li>
           <Link className={styles.FooterLink} href="/CGU">CGU</Link>
