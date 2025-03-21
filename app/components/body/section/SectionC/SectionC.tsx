@@ -11,14 +11,14 @@ export default function SectionC() {
            <div className={styles.Orientation}>
                  <div className={styles.OrientationImage}>
                  <Image
-                    src="/img/School.webp" 
+                    src="/img/Etat.webp" 
                     alt="Example Image"
                     layout="fill" 
                     objectFit="cover" 
                   />
                  </div>
                  <div className={styles.Description}>
-                        <p>Orientation avant le BAC au Maroc</p>
+                        <p>Concours État Maroc</p>
                         <ul>
                             <li>Les filières générales </li>
                             <li>Les filières technologiques</li>
@@ -32,14 +32,14 @@ export default function SectionC() {
             <div className={styles.Orientation}>
                  <div className={styles.OrientationImage}>
                  <Image
-                    src="/img/University.webp" 
+                    src="/img/Entreprise.webp" 
                     alt="Example Image"
                     layout="fill" 
                     objectFit="cover" 
                   />
                  </div>
                  <div className={styles.Description}>
-                        <p>Après le BAC au Maroc : </p>
+                        <p>Concours Entreprise Privée : </p>
                         <ul>
                             <li> - Universités publiques</li>
                             <li> - Grandes écoles et instituts</li>
