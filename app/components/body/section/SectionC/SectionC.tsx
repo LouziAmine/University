@@ -1,17 +1,14 @@
 import Image from 'next/image';
-import styles from './SectionB.module.css';
+import styles from './SectionC.module.css';
 
 
-export default function SectionB() {
+export default function SectionC() {
     return (
         <div className={styles.conteneur}>
            
-
+           <div className={styles.title}>Concours</div>
            <div className={styles.conteneurOrientation}>
-            <div className={styles.Orientation}>
-            <div className={styles.title}>Orientation </div>
-            </div>
-            <div className={styles.Orientation}>
+           <div className={styles.Orientation}>
                  <div className={styles.OrientationImage}>
                  <Image
                     src="/img/School.webp" 
@@ -52,6 +49,27 @@ export default function SectionB() {
                         </ul>
                  </div>
             </div>
+            <div className={styles.Orientation}>
+                 <div className={styles.OrientationImage}>
+                 <Image
+                    src="/img/University.webp" 
+                    alt="Example Image"
+                    layout="fill" 
+                    objectFit="cover" 
+                  />
+                 </div>
+                 <div className={styles.Description}>
+                        <p>Après le BAC au Maroc : </p>
+                        <ul>
+                            <li> - Universités publiques</li>
+                            <li> - Grandes écoles et instituts</li>
+                            <li> - Formation professionnelle</li>
+                            <li> - Établissements privés</li>
+                            <li> - Études à l’étranger</li>
+                        </ul>
+                 </div>
+            </div>
+            
            </div>
 
         </div>

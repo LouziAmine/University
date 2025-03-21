@@ -1,0 +1,60 @@
+.conteneur{
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.title{
+    color: #234d87;
+    font-size: 40px;
+    font-weight: bold;
+
+    
+}
+
+.conteneurOrientation {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Orientation{
+    width: 30%;
+    height: 500px;
+    color: #234d87;
+    border-radius: 12px;
+    box-shadow: 0px 10px 5px 0px #00000030;
+}
+
+
+
+
+
+.OrientationImage {
+    height: 300px;
+    width: 100%;
+    position: relative; 
+    overflow: hidden; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+.Description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:  #234d87;
+    color: white;
+    height: 200px;
+
+    justify-content: center; 
+    
+   
+}
+
+.Description p{
+    font-weight: bold;
+    font-size: 20px;
+   
+}
