@@ -34,3 +34,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+/University
+│── /pages
+│   │── index.tsx                # Homepage
+│   │── /establishments          # List all establishments
+│   │   │── [id].tsx             # Establishment details
+│   │── /levels                  # List all levels
+│   │   │── [id].tsx             # Level details
+│   │── /specialities             # Specialities list
+│   │   │── [id].tsx             # Speciality details
+│   │── /modules                 # List of modules
+│   │   │── [id].tsx             # Module details
+│   │── /sessions                # Sessions list
+│   │   │── [id].tsx             # Session details
+│   │── /resources               # Resources list
+│   │   │── [id].tsx             # Resource details
+│── /components                  # Reusable UI components
+│   │── EstablishmentList.tsx
+│   │── LevelList.tsx
+│   │── SpecialityList.tsx
+│   │── ModuleList.tsx
+│   │── SessionList.tsx
+│   │── ResourceList.tsx
+│── /lib                          # Data & API handlers
+│   │── data.ts                    # Your dataset (from your message)
+│   │── api.ts                      # Fetch functions
+│── /public                        # Static assets
+│   │── assets/SAP.pdf             # Example resource
+│── /styles                        # Styling (CSS, Tailwind, etc.)
+│── .env.local                     # Environment variables
+│── tsconfig.json                   # TypeScript config
+│── next.config.js                  # Next.js config
+│── package.json                    # Dependencies
